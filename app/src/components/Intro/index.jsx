@@ -1,12 +1,13 @@
 'use client';
-import React, { useLayoutEffect, useRef } from 'react'
 import styles from './style.module.css';
 import Image from 'next/image';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import React, { useLayoutEffect, useRef } from 'react'
 
 
-export default function Index() {
+
+export default function Intro() {
 
     const background = useRef(null);
     const introImage = useRef(null);
@@ -47,7 +48,7 @@ export default function Index() {
                             priority={true}
                         />
                     </div>
-                    <h1 className={styles.h1Class} data-scroll data-scroll-speed="0.7">SMOOTH SCROLL</h1>
+                    <h1 data-scroll data-scroll-speed="0.7">SMOOTH SCROLL</h1>
              </div>
         </div>
     )

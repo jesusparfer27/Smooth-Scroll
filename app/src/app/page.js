@@ -1,8 +1,10 @@
 "use client"
 
-import styles from '../components/style.module.css'
+import styles from '../components/Intro/style.module.css'
 import { useEffect } from 'react';
-import Index from '../components/index.jsx';
+import Intro from '../components/Intro/index.jsx';
+import Description from '../components/Description/index'
+import Projects from '../components/Projects/index'
 
 
 export default function Home() {
@@ -16,7 +18,9 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Index />
+      <Intro />
+      <Description />
+      <Projects />
     </main>
   );
 }

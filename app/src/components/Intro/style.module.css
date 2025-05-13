@@ -12,8 +12,25 @@
   font-style: normal;
 }
 
-.h1Class {
-  font-family: 'ABC Hebrew';
+@font-face {
+  font-family: 'ABC HebrewHeavy';
+  src: url('/fonts/ABCHebrew/ABCHebrewHeavy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABC HebrewBold';
+  src: url('/fonts/ABCHebrew/ABCHebrewBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABC HebrewMedium';
+  src: url('/fonts/ABCHebrew/ABCHebrewMedium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .homeHeader{
@@ -47,6 +64,7 @@
     z-index: 3;
     text-align: center;
     white-space: nowrap;
+    font-family: 'ABC HebrewHeavy';
 }
 
 .introImage{
